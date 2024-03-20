@@ -115,6 +115,6 @@ export class CustomService {
       .then(() => {})
       .catch(() => {});
 
-    return await this.customLink(file);
+    return 'await this.customLink(file)';
   }
 }
