@@ -1,4 +1,8 @@
+[build]
+  command = "npm run build"
+  functions = "dist"
+
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/"
+  to = "/.netlify/functions/server"
+  status = 200
